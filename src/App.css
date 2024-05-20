@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+html body{
+    font-family: "Titillium Web", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.card{
+    border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card img{
+    border-radius: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-title{
+    font-size: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.singlePage{
+    width: 1200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.priceCard{
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.priceCard-body{
+    padding: 10px;
+}
+
+/* NAVIGATION BAR */
+
+.navBar{
+    background-color: rgb(3 2 31);
+}
+
+.Brand{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: start;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.navItems{
+    margin: auto;
+}
+
+
+
+/* FOOTER */
+
+.footer{
+    background-color: rgb(3 2 31);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.aboutFooter{
+    padding: 30px;
+    padding-left: 100px;
+    text-align: start;
+}
+
+.contactFooter{
+    padding: 30px;
+}
+
+.iconsFooter{
+    padding: 30px;
+    text-align: start;
+}
+
+.iconsFooter i{
+    font-size: 30px;
+    margin-right: 20px;
+    color: #fff;
+    
+}
+
+.iconsFooter h3{
+    text-align: start;
+}
+
+.iconsFooter p{
+    text-align: start;
+}
+
+.form-control{
+    width: 300px;
+}
+
+/* ABOUT US */
+.aboutUs-container{
+    width: 900px;
+}
+
+.gobackBtn i{
+    font-size: 20px;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+
+.gobackBtn{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.gobackBtn:hover{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 30px;
 }
